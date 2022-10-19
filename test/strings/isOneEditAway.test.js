@@ -3,7 +3,7 @@ var isOneEditAway = require("../../strings/isOneEditAway.js");
 
 var expect = chai.expect;
 
-xdescribe("String Exercise - isOneEditAway()", () => {
+describe("String Exercise - isOneEditAway()", () => {
   it("returns false if first string is empty", () => {
     let str1 = "";
     let str2 = "not empty";

@@ -4,7 +4,7 @@ var oldAnimals = require("../../lists/oldAnimals");
 
 var expect = chai.expect;
 
-xdescribe("List Exercise - oldAnimals", function() {
+describe("List Exercise - oldAnimals", function() {
   it("should return all old animals", function() {
     var old = [
       {

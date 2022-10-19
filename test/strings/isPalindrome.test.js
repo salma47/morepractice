@@ -3,7 +3,7 @@ var isPalindrome = require('../../strings/isPalindrome.js') ;
 
 var expect = chai.expect;
 
-xdescribe('String Exercise - isPalindrome()', () => {
+describe('String Exercise - isPalindrome()', () => {
   
   it('returns true if string is a palindrome', () => {
     let str = "eye";

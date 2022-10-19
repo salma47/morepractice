@@ -3,7 +3,7 @@ var rotateMatrix = require('../../strings/rotateMatrix.js') ;
 
 var expect = chai.expect;
 
-xdescribe('String Exercise - rotateMatrix()', () => {
+describe('String Exercise - rotateMatrix()', () => {
   it('returns rotated matrix', () => {
     let matrix = [
       ['a', 'b'],

@@ -4,7 +4,7 @@ var findOphelia = require("../../lists/findOphelia.js");
 
 var expect = chai.expect;
 
-xdescribe("List Exercise - findOphelia()", function() {
+describe("List Exercise - findOphelia()", function() {
   it("should return Ophelia the cat", function() {
     var ophelia = {
       species: "Cat",

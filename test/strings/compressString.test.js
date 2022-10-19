@@ -3,7 +3,7 @@ var compressString = require('../../strings/compressString.js') ;
 
 var expect = chai.expect;
 
-xdescribe('String Exercise - compressString()', () => {
+describe('String Exercise - compressString()', () => {
   it('returns compressed string', () => {
     let str = '';
     expect(compressString(str)).to.eql('');

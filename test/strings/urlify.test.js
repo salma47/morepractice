@@ -3,7 +3,7 @@ var urlify = require('../../strings/urlify.js') ;
 
 var expect = chai.expect;
 
-xdescribe('String Exercise - urlify()', () => {
+describe('String Exercise - urlify()', () => {
   it('returns urlified string', () => {
     let str = "Mr John Smith";
     expect(urlify(str)).to.eql('Mr%20John%20Smith');

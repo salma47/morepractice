@@ -4,7 +4,7 @@ var elephant = require("../../lists/findElephant.js");
 
 var expect = chai.expect;
 
-xdescribe("List Exercise - findElephant()", function() {
+describe("List Exercise - findElephant()", function() {
   it("should return Jumbo the elephant", function() {
     var jumbo = {
       species: "Elephant",
